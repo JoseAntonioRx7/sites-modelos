@@ -5,8 +5,8 @@
 // ============================================================================
 
 export const brand = {
-  name: 'suamarca',
-  nameWithMark: 'suamarca®',
+  name: 'modelo de site',
+  nameWithMark: 'modelo®',
 }
 
 export const nav = [
@@ -220,5 +220,5 @@ export const footer = {
       links: socials,
     },
   ],
-  legal: '© 2026 suamarca. Todos os direitos reservados.',
+  legal: '© 2026 modelo. Todos os direitos reservados.',
 }
