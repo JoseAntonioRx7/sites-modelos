@@ -5,220 +5,153 @@
 // ============================================================================
 
 export const brand = {
-  name: 'suamarca',
-  nameWithMark: 'suamarca®',
+  name: 'Nail Design',
+  nameWithMark: 'Studio Mohay',
 }
 
 export const nav = [
-  { label: 'Sobre', href: '#sobre' },
-  { label: 'Trabalhos', href: '#trabalhos' },
+  { label: 'Início', href: '#top' },
+  { label: 'Galeria', href: '#trabalhos' },
   { label: 'Serviços', href: '#servicos' },
-  { label: 'Contato', href: '#contato' },
+  { label: 'Agendamento', href: '#contato' },
 ]
 
-export const socials = [
-  { label: 'LinkedIn', href: 'https://linkedin.com' },
-  { label: 'X.com', href: 'https://x.com' },
-  { label: 'Instagram', href: 'https://instagram.com' },
-]
+export const socials = []
 
 export const hero = {
-  eyebrow: 'Disponível para novos projetos',
-  headline: 'Criando narrativas visuais que falam ao coração das marcas.',
-  image: 'https://picsum.photos/seed/hero-agency/1200/1400',
-  scrollLabel: 'Role para ver mais',
+  eyebrow: 'Nail art feita para você',
+  headline: 'Da francesinha clássica ao detalhe autoral.',
+  image: '/images/SaveClip.App_815701395_18140331481581395_5891594621850897303_n.jpg',
+  imageAlt: 'Alongamento em gel com francesinha branca e esmaltação rosada',
+  scrollLabel: 'Explore os trabalhos',
 }
 
 export const portfolio = {
-  eyebrow: 'Trabalhos selecionados',
-  title: 'Projetos de que nos orgulhamos',
+  eyebrow: 'Um pouco do nosso trabalho',
+  title: 'Seu estilo, em cada detalhe',
   subtitle:
-    'Uma coleção com curadoria de projetos que mostram nossa abordagem de design, unindo estratégia e criatividade.',
+    'Francesinhas delicadas, acabamentos impecáveis e nail art para transformar sua ideia em um conjunto único.',
   projects: [
     {
-      id: 'studiolink',
-      name: 'Studiolink',
-      category: 'Identidade de marca',
-      image: 'https://picsum.photos/seed/studiolink/900/1000',
-      dark: true,
-    },
-    {
-      id: 'zentrox',
-      name: 'Zentrox',
-      category: 'Direção de arte',
-      image: 'https://picsum.photos/seed/zentrox/900/1000',
+      id: 'nail-art-minimalista',
+      name: 'Nail art minimalista',
+      category: 'Traços delicados e brilho sutil',
+      image: '/images/SaveClip.App_791510126_18137875072581395_973703633302365107_n.jpg',
       dark: false,
     },
     {
-      id: 'corehue',
-      name: 'Corehue',
-      category: 'Campanha digital',
-      image: 'https://picsum.photos/seed/corehue/900/1000',
+      id: 'detalhes-em-relevo',
+      name: 'Detalhes em relevo',
+      category: 'Texturas e aplicações',
+      image: '/images/SaveClip.App_801882424_18138989017581395_7775329828392019423_n.jpg',
       dark: false,
     },
     {
-      id: 'elevana',
-      name: 'Elevana',
-      category: 'Editorial & moda',
-      image: 'https://picsum.photos/seed/elevana/900/1000',
+      id: 'vermelho-classico',
+      name: 'Vermelho marcante',
+      category: 'Cor intensa com personalidade',
+      image: '/images/SaveClip.App_762291686_18133849828581395_140646376896284725_n.jpg',
       dark: true,
+    },
+    {
+      id: 'nude-francesinha',
+      name: 'Nude & francesinha',
+      category: 'Um clássico repaginado',
+      image: '/images/SaveClip.App_788948709_18137622244581395_4112735074708007472_n.jpg',
+      dark: false,
     },
   ],
 }
 
-export const testimonial = {
-  quote:
-    'A equipe entendeu nossa marca antes mesmo de abrirmos o briefing. Cada entrega chegou mais afiada que a anterior, sem perder a nossa voz.',
-  name: 'Marina Castro',
-  role: 'Diretora de Marca, Corehue',
-  avatar: 'https://picsum.photos/seed/marina-castro/200/200',
-}
-
 export const services = {
-  eyebrow: 'O que fazemos',
+  eyebrow: 'Seu próximo conjunto',
   title: 'Serviços',
   items: [
     {
       number: '01',
-      title: 'Branding',
+      title: 'Alongamento',
       description:
-        'Uma marca forte te destaca em um mercado saturado e transforma a primeira impressão em fidelidade duradoura.',
-      image: 'https://picsum.photos/seed/service-branding/800/600',
+        'Comprimento e formato pensados para combinar com sua rotina e com o estilo que você quer expressar.',
+      image: '/images/SaveClip.App_757454718_18133493167581395_4126208871404486041_n.jpg',
     },
     {
       number: '02',
-      title: 'Desenvolvimento',
+      title: 'Nail art',
       description:
-        'Sites e produtos rápidos, acessíveis e fáceis de manter — construídos para crescer junto com o seu negócio.',
-      image: 'https://picsum.photos/seed/service-dev/800/600',
+        'Do minimalista ao maximalista: escolha as cores, os detalhes e as referências que têm a sua cara.',
+      image: '/images/SaveClip.App_719126459_18126345001581395_6134074050481331088_n.jpg',
     },
     {
       number: '03',
-      title: 'Motion',
+      title: 'Francesinha',
       description:
-        'Animações e vídeos que dão ritmo à marca e prendem a atenção nos primeiros três segundos.',
-      image: 'https://picsum.photos/seed/service-motion/800/600',
+        'Um clássico renovado com diferentes cores, formatos e acabamentos para sair do óbvio.',
+      image: '/images/SaveClip.App_728893310_18129242848581395_132308582708224885_n.jpg',
     },
     {
       number: '04',
-      title: 'UI/UX Design',
+      title: 'Esmaltação',
       description:
-        'Interfaces claras e testadas, para que um produto seja bonito e também fácil de usar do início ao fim.',
-      image: 'https://picsum.photos/seed/service-uiux/800/600',
+        'Cores clássicas ou vibrantes, com um acabamento caprichado e atenção a cada detalhe.',
+      image: '/images/SaveClip.App_694131074_18121283152581395_5616180834433163360_n.jpg',
     },
   ],
-}
-
-export const stats = [
-  { value: '120+', label: 'Marcas impulsionadas com design estratégico' },
-  { value: '75%', label: 'Aumento médio no engajamento dos usuários' },
-  { value: '8+', label: 'Anos de experiência no setor' },
-  { value: '99%', label: 'Satisfação na entrega dos projetos' },
-]
-
-export const video = {
-  eyebrow: 'Conheça o estúdio',
-  title: 'Veja como trabalhamos por trás das telas',
-  thumbnail: 'https://picsum.photos/seed/studio-reel/1600/900',
-  ctaLabel: 'Assistir agora',
 }
 
 export const pricing = {
-  eyebrow: 'Investimento',
-  title: 'Vamos encontrar o plano certo para você',
+  eyebrow: 'Valores sob consulta',
+  title: 'Um conjunto pensado nos seus detalhes',
   plans: [
     {
-      name: 'Plano Básico',
-      price: 'R$ 4.500',
-      period: '/projeto',
-      description: 'Ideal para marcas que estão começando e precisam de uma base sólida.',
-      cta: 'Começar projeto',
+      name: 'Clássico',
+      price: 'Sob consulta',
+      period: '',
+      description: 'Para quem ama um visual elegante, com acabamento limpo e atemporal.',
+      cta: 'Consultar horário',
       highlighted: false,
       features: [
-        'Identidade visual completa',
-        'Landing page responsiva',
-        '2 rodadas de revisão',
-        'Entrega em até 3 semanas',
+        'Francesinha tradicional ou colorida',
+        'Tons nude e rosados',
+        'Formato escolhido com você',
+        'Valor definido conforme o serviço',
       ],
     },
     {
-      name: 'Plano Pro',
-      price: 'R$ 9.800',
-      period: '/projeto',
-      description: 'Para times que precisam de um parceiro completo, do conceito ao código.',
-      cta: 'Falar com o time',
+      name: 'Nail art',
+      price: 'Sob consulta',
+      period: '',
+      description: 'Para dar vida à sua referência com cores, aplicações e detalhes especiais.',
+      cta: 'Criar meu conjunto',
       highlighted: true,
       features: [
-        'Tudo do Plano Básico',
-        'Website completo em React',
-        'Motion e microinterações',
-        'Revisões ilimitadas por 30 dias',
-        'Suporte prioritário por 3 meses',
+        'Desenho personalizado',
+        'Possibilidade de efeitos e aplicações',
+        'Paleta escolhida com você',
+        'Valor definido conforme a arte',
       ],
-    },
-  ],
-}
-
-export const awards = {
-  eyebrow: 'Reconhecimento',
-  title: 'Prêmios & conquistas',
-  items: [
-    { year: '2025', award: 'Awwwards — Site of the Day', category: 'Design Digital' },
-    { year: '2024', award: 'CSS Design Awards', category: 'UI/UX Design' },
-    { year: '2024', award: 'Behance Portfolio Review', category: 'Branding' },
-    { year: '2023', award: 'FWA — Favourite Website', category: 'Motion & Interação' },
-    { year: '2022', award: 'D&AD New Blood', category: 'Direção de Arte' },
-  ],
-}
-
-export const blog = {
-  eyebrow: 'Do nosso jornal',
-  title: 'Ideias recentes',
-  posts: [
-    {
-      category: 'Design',
-      title: 'A arte do branding minimalista: menos, porém impactante',
-      image: 'https://picsum.photos/seed/blog-branding/700/500',
-      href: '#',
-    },
-    {
-      category: 'Design Visual',
-      title: 'O papel do storytelling no design moderno',
-      image: 'https://picsum.photos/seed/blog-storytelling/700/500',
-      href: '#',
-    },
-    {
-      category: 'Design Criativo',
-      title: 'Tendências de design que estamos observando em 2026',
-      image: 'https://picsum.photos/seed/blog-trends/700/500',
-      href: '#',
     },
   ],
 }
 
 export const contact = {
-  eyebrow: 'Fale com a gente',
-  title: 'Vamos conversar',
-  phone: '+1 (208) 555-0112',
-  emails: ['ola@suamarca.com', 'contato@suamarca.com'],
-  formTitle: 'Tem um projeto em mente?',
+  eyebrow: 'Agendamento',
+  title: 'Vamos escolher seu próximo visual?',
+  details: 'Conte um pouco do que você está imaginando. O atendimento e os valores são combinados conforme o serviço escolhido.',
+  formTitle: 'Me conte sua ideia',
 }
 
 export const footer = {
+  description: 'Nail art, cuidado e atenção em cada detalhe do seu próximo conjunto.',
   columns: [
     {
-      title: 'Navegação',
+      title: 'Explore',
       links: [
-        { label: 'Sobre', href: '#sobre' },
-        { label: 'Trabalhos', href: '#trabalhos' },
+        { label: 'Início', href: '#top' },
+        { label: 'Galeria', href: '#trabalhos' },
         { label: 'Serviços', href: '#servicos' },
         { label: 'Contato', href: '#contato' },
       ],
     },
-    {
-      title: 'Redes sociais',
-      links: socials,
-    },
   ],
-  legal: '© 2026 suamarca. Todos os direitos reservados.',
+  legal: 'Studio Mohay. Todos os direitos reservados.',
 }

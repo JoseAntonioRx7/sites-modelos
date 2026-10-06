@@ -8,11 +8,11 @@ export default {
         body: ['Inter', 'Helvetica Neue', 'sans-serif'],
       },
       colors: {
-        ink: '#0A0A0A',
-        paper: '#FAFAF9',
-        mist: '#F1F1EF',
-        line: '#E4E4E1',
-        accent: '#FF4B2B',
+        ink: '#191416',
+        paper: '#FCF8F7',
+        mist: '#F4ECEE',
+        line: '#E8DDE0',
+        accent: '#C46D7A',
       },
       maxWidth: {
         content: '1400px',

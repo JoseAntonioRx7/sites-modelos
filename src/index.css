@@ -21,7 +21,7 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-  outline: 2px solid #ff4b2b;
+  outline: 2px solid #c46d7a;
   outline-offset: 3px;
 }
 
@@ -46,9 +46,9 @@ textarea:focus-visible {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #fafaf9;
+  background: #fcf8f7;
 }
 ::-webkit-scrollbar-thumb {
-  background: #d8d8d5;
+  background: #d9c9cd;
   border-radius: 999px;
 }

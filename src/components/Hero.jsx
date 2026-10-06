@@ -23,7 +23,7 @@ export default function Hero() {
               href="#contato"
               className="inline-flex items-center justify-center rounded-full bg-ink text-paper px-7 py-4 text-sm font-medium hover:opacity-85 transition-opacity"
             >
-              Iniciar um projeto
+              Agendar horário
             </a>
           </AnimatedSection>
         </div>
@@ -31,7 +31,7 @@ export default function Hero() {
         <AnimatedSection delay={0.15} className="mt-12 rounded-3xl overflow-hidden">
           <img
             src={hero.image}
-            alt="Projeto em destaque da agência"
+            alt={hero.imageAlt}
             className="w-full h-[50vh] md:h-[65vh] object-cover"
           />
         </AnimatedSection>

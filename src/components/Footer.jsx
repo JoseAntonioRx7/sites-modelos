@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-10 md:gap-6 pb-16 border-b border-paper/15">
           <div className="md:col-span-1">
             <p className="text-paper/50 text-sm max-w-[24ch]">
-              Agência de design e tecnologia criando marcas com propósito e cuidado.
+              {footer.description}
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-paper/40">
           <span>{footer.legal}</span>
-          <span>Feito com cuidado, do conceito ao código.</span>
+          <span>Feito pela <a href="https://tientrega.com.br" target="_blank" rel="noreferrer" className="text-paper/40 hover:text-paper transition-colors">TIentrega</a>.</span>
         </div>
       </div>
     </footer>

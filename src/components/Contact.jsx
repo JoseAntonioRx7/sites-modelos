@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import AnimatedSection from './AnimatedSection'
-import { contact, socials } from '../data/content'
+import { contact } from '../data/content'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -43,14 +43,14 @@ export default function Contact() {
               </label>
 
               <label className="flex flex-col gap-2 text-sm font-medium">
-                Endereço de email <span className="text-accent">*</span>
+                WhatsApp para retorno <span className="text-accent">*</span>
                 <input
                   required
-                  type="email"
+                  type="tel"
                   name="email"
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="email@exemplo.com"
+                  placeholder="(00) 00000-0000"
                   className="rounded-xl bg-paper border border-line px-4 py-3.5 text-sm font-normal placeholder:text-ink/35 focus:border-ink transition-colors"
                 />
               </label>
@@ -63,7 +63,7 @@ export default function Contact() {
                   rows={4}
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="Sua mensagem"
+                  placeholder="Qual serviço você gostaria? Se tiver uma referência, pode contar aqui."
                   className="rounded-xl bg-paper border border-line px-4 py-3.5 text-sm font-normal placeholder:text-ink/35 focus:border-ink transition-colors resize-none"
                 />
               </label>
@@ -87,28 +87,7 @@ export default function Contact() {
             {contact.title}
           </h2>
 
-          <div className="flex flex-col divide-y divide-paper/15 border-t border-b border-paper/15">
-            <p className="py-4 font-medium text-lg">{contact.phone}</p>
-            {contact.emails.map((email) => (
-              <a key={email} href={`mailto:${email}`} className="py-4 text-paper/70 hover:text-paper transition-colors">
-                {email}
-              </a>
-            ))}
-          </div>
-
-          <div className="flex items-center gap-8 mt-8">
-            {socials.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm font-medium text-paper/70 hover:text-paper border-b border-transparent hover:border-paper transition-colors pb-0.5"
-              >
-                {social.label}
-              </a>
-            ))}
-          </div>
+          <p className="max-w-sm text-paper/70 leading-relaxed">{contact.details}</p>
         </AnimatedSection>
       </div>
     </section>
